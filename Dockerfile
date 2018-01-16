@@ -1,4 +1,4 @@
-FROM websphere-liberty:microProfile
+FROM websphere-liberty:webProfile7
 MAINTAINER IBM Java engineering at IBM Cloud
 COPY server.xml /config/server.xml
 # Install required features if not present
